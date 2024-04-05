@@ -8,7 +8,7 @@ const Header = () => {
           <img src="/pacafichunt.png" alt="" className="h-10 ml-16" />
         </div>
         <div className="headercontent space-x-5 mr-20  ">
-          <NavLink to={"/home"} className="text-headertext nav navactive">
+          <NavLink to={"/home"} className="text-headertext nav">
             Home
           </NavLink>
           <NavLink to={"/job"} className="text-headertext nav">
