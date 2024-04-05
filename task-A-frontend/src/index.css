@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .nav {
+    @apply hover:text-primary relative;
+  }
+  .nav::after {
+    @apply hover:content-[''] bg-primary h-0.5 w-6 absolute left-0 -bottom-2;
+  }
+}
+
+@layer utilities {
+  .navactive {
+    @apply text-primary;
+  }
+  .navactive::after {
+    @apply content-[''] bg-primary h-0.5 w-6 absolute left-0 -bottom-2;
+  }
+}

@@ -16,6 +16,7 @@ export default {
         feedbackbg: "#04334D",
         footerbg: "#252527",
         lorem: "#AFB0B1",
+        "brand-green": "#088178",
       },
     },
   },
